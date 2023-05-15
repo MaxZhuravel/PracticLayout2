@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans&display=swap');
+
+body {
+  font-family: 'Monsterrat', sans-serif;
+  text-transform: uppercase;
+}
+.wrap {
+  margin: 140px auto 0;
+  width: 940px;
+}
+.head {
+  margin-bottom: 90px;
+}
+.label {
+  font-size: 12px;
+  font-weight: bold;
+  letter-spacing: 4px;
+  color: #898f99;
+  text-align: center;
+  line-height: 30px;
+  margin-bottom: 20px;
+}
+.title {
+  font-size: 48px;
+  color: #0ec8cb;
+  text-align: center;
+  font-weight: 500;
+  margin-bottom: 40px;
+  letter-spacing: 6px;
+}
+.subtitle {
+  width: 513px;
+  text-align: center;
+  margin: 0 auto;
+  font-size: 18px;
+  font-family: 'PT Sans', sans-serif;
+  letter-spacing: 1px;
+  color: #999999;
+}
+.main {
+  background: #f7f7f7;
+}
+.icon {
+  width: 70px;
+  height: 70px;
+  margin: 50px auto 50px;
+}
+.icon-1 {
+  background: url(../img/Anchor.png) no-repeat center;
+}
+.icon-2 {
+  background: url(../img/Diamond.png) no-repeat center;
+}
+.icon-3 {
+  background: url(../img/Eyeglasses.png) no-repeat center;
+}
+.icon-4 {
+  background: url(../img/Monitor.png) no-repeat center;
+}
+.column {
+  width: 24.64%;
+  display: inline-block;
+}
+.column:hover {
+  background: #0ec8cb;
+  color: white;
+}
+.column:hover > .column__title,
+.column:hover > .column__subtitle {
+  color: white;
+}
+.column__title {
+  height: 40px;
+  font-size: 21px;
+  color: #1b1b1b;
+  text-align: center;
+  margin-bottom: 30px;
+  line-height: 27px;
+}
+.column__subtitle {
+  color: #777777;
+  text-align: center;
+  text-transform: none;
+  font-size: 14px;
+  padding: 0 30px;
+  margin-bottom: 60px;
+}
