@@ -45,18 +45,7 @@ body {
   width: 70px;
   height: 70px;
   margin: 50px auto 50px;
-}
-.icon-1 {
-  background: url(../img/Anchor.png) no-repeat center;
-}
-.icon-2 {
-  background: url(../img/Diamond.png) no-repeat center;
-}
-.icon-3 {
-  background: url(../img/Eyeglasses.png) no-repeat center;
-}
-.icon-4 {
-  background: url(../img/Monitor.png) no-repeat center;
+  fill: #1b1b1b;
 }
 .column {
   width: 24.64%;
@@ -69,6 +58,9 @@ body {
 .column:hover > .column__title,
 .column:hover > .column__subtitle {
   color: white;
+}
+.column:hover > .icon {
+  fill: white;
 }
 .column__title {
   height: 40px;
